@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  background-color: purple;
+}
+
+.container {
+  position: relative;
+  max-width: 450px;
+  margin: 150px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 2em;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.3em 0.8em;
+  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.23);
+}
+
+i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: purple;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+i:hover {
+  color: black;
+}
+
+.suggestions {
+  text-align: left;
+  width: 100%;
+}
+
+.suggestions li {
+  list-style: none;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #efefef;
+  color: black;
+}
